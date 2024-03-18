@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+
+    <!-- Landing Screen -->
+
+    <div class="landingScreen">
+        <div class="img-container">
+            <img src="Images/main.png" alt="TicTacToe">
+        </div>
+        <h1>Tic Tac Toe</h1>
+        <button id="start" class="overlay-btn">Start</button>
+
+    </div>
+
+    <!-- Main Game -->
+
+    <div class="container">
+        <div class="box top left"></div>
+        <div class="box top"></div>
+        <div class="box top right"></div>
+        <div class="box left"></div>
+        <div class="box"></div>
+        <div class="box right"></div>
+        <div class="box bottom left"></div>
+        <div class="box bottom"></div>
+        <div class="box bottom right"></div>
+
+    </div>
+
+
+    <!-- End Screen -->
+
+    <div class="endScreen">
+
+        <div id="won">
+            <div class="gif-container">
+                <img src="Images/won.gif">
+
+            </div>
+
+            <h1 id="winner"></h1>
+
+        </div>
+
+        <button id="replay" class="overlay-btn">Replay</button>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
